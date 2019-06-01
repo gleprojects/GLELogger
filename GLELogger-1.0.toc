@@ -1,0 +1,6 @@
+## Interface: 80100
+## Title: GLELogger-1.0 (Standalone)
+## Author: gleprojects
+
+LibStub\LibStub.lua
+GLELogger-1.0.lua
