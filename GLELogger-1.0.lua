@@ -71,6 +71,12 @@ local function showMessage(src,level,msg,theme)
 end
 
 local function logMessage(src,msg,logLevelText) 
+    if (msg == nil) then
+        return
+    end
+    if (src == nil) then
+        src = 'GLELogger'
+    end
     logLevel = getLoggingLevel(logLevelText)
     currentLogLevel = getLoggingLevel(defaults['logLevel'])
     theme = getThemeColor(logLevelText)
