@@ -1,6 +1,8 @@
 # GLELogger 
-To use:
-   local Logger = LibStub("GLELogger-1.0")
+A World of Warcraft addon library to provide logging services for addons
+
+## Usage
+local Logger = LibStub("GLELogger-1.0")
 
 ## Available methods:
 ### These methods will print out a message to the default chat frame:
