@@ -22,7 +22,7 @@ Default logging level is WARN
 4. DEBUG
 5. TRACE
 
-###Returns current logging level
+### Returns current logging level
 Logger:ShowLogLevel
 
 ## Dependancies
