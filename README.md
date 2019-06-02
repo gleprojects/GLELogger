@@ -2,6 +2,14 @@
 A World of Warcraft addon library to provide logging services for addons
 
 ## Usage
+- Copy the folder to your addon's lib folder
+- Add to toc file: libs\GLELogger-1.0\GLELogger-1.0.xml
+
+Example toc entries:
+libs\LibStub\LibStub.lua
+libs\GLELogger-1.0\GLELogger-1.0.xml
+
+Use in addon :
 local Logger = LibStub("GLELogger-1.0")
 
 ## Available methods:
